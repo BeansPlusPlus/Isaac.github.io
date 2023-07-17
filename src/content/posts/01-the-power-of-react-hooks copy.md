@@ -1,54 +1,48 @@
 ---
-title: "The Power Of React Hooks"
-publishedAt: 2023-05-24
-description: "Lorem ipsum dolor sit amet consectetur et ultrices blandit neque ege"
-slug: "the-power-of-react-hooks"
+title: "Coding to Help"
+publishedAt: 2023-07-17
+description: "Helping others and spreading hope is something I try always to keep in the foreground of whatever I am doing."
+slug: "Game-Making"
 isPublish: true
 ---
 
-## Vocesque meum remis est neque Neptunus monte
+## Code that helps.
 
-Lorem markdownum nunc _adfuit_ fecisse, `quae pectus`, quod seu mortale suo
-Minerva iussit obortas. Favilla victa; alarum signis barbara, nec _sibi dentes_
-hostes?
 
-## Corporibus Leucon
+With the concept behind RED PING being a tool to allow those vulnerable to reach out when in crisis and also well before that, and JitterBug targeting loneliness especially in those more isolated due to a variety of reasons, I find myself naturally drawn towards creating technology tools that can improve wellbeing. 
 
-Quaeque viridis, pariter possit. Velatus Thetis, ab Buten, in et ite positis
-annis ut Troasque altaque. Ancaeus convertit conscia Phinea petis. Dum rapto
-fameque quas: hostis: et exiguo exire materiaque sit non, numinis unguibus fide.
-Populis in tinxi **nisi** rura deos quo natus in cervice spretis, vulnera
-pictae, vatibus.
+## Why else do we build and build...
+## If not toward a better home for ourselves and for others? 
 
-> Illi tenebras si vultum suae. Matrem iam: iniqua adire, tetigere meque,
-> cessant, gerebat.
+I fully believe that sometimes promoting wellbeing is not always about medicine, help, or even acknowledging the hurt, but also about enabling creativity, connection, play, and simply joy in whatever form that might take. 
+Building tools that can help others take on their own creative power, inspire learning and purpose, or just make someone laugh is to me just as important in terms of helping others as medicine and lifelines. 
 
-## Montes ignarus precor rogabam primus ridet sanguine
+Ideally we may have the tools to find joy and safety before emergency bells ever need be rung."
+## A few projects enspired by the need to spread play & joy:
+JitterBug:
 
-In vir indefessus et patrios veniam. Fuit fecere nymphae putri tumebat Cyparisse
-domus, ad artus vitta herba? Et gaudet pressum aeterna animam. Miratur tamen ad
-frontem Hercule nam captivarumque medio tenet obstantia pulsisque adimit bella
-_pthiam mirantur ne_.
+Username Generator:
 
-> Lacertis et nomenque oracla exstabat: genitor nitor! Fluctus habes extinctum.
-> Hunc utero iussa ora neque quae trunca tenuit coniciunt passis viro latratu
-> nepotum, spes. Et pendet mittor si expellam retia Achivis Aesonius cuius;
-> pressit exstinctique rogum enim, percutit potenti; quid longa. Nostra animaque
-> genetrice viae, quam virus sermone in videri.
+Whai Piano
+## Projects to support those who are vulnerable
 
-## Rapit harundine vana
+RED PING:  'https://green-field-0a20fe310.3.azurestaticapps.net/':
 
-Noctis et et carpis corpus amplexus; imagine indignanda pedum sospes; cornua
-super **et simus**. Emissi bellaque dedit, ipse suis Romanique sit regia est
-virisque verum: _parentum omen_. Simul adest quam dat inanes verterat ab quies,
-visent melliferarum vestibus dolore.
+> For alerting supporters to a situation whether it be discomfort or an emergency.
 
-Vos illo in habet, ipse est suo fuit, solidissima invecta moverent [si] pericula
-ea pelle te quatiens proditus. Requiemque nec et fruticumque destringere
-divulsaque [multae requirit primi] supposita, turbatusque lacus, quondam;
-hectora pendebat verba. Magni Euagrum arcus sequentis vidi: qui Meropisque
-adplicat relinquentur inter, si pete. Magna constitit ore rediit et parentis
-pomaria lumina seque aura.
+## Mini Mental Health App
 
-[multae requirit primi]: http://heu.io/
-[si]: http://infelixlucina.net/mutati
+Coming Soon...
+
+Intent:
+> Navigating distress and finding tools that help for different individuals.
+
+> Encourage Mastery and learning in a way that benefits purpose and self esteem in a sustainable manner.
+
+> PLAY, is an underate and wonderful aspect to touch on anywhere and everywhere.
+
+> Represent a variety of users, allow people to provide honest feedback, and customize their own interactions with the App. 
+
+> Deliver different options in what sometimes seems like a room with very few doors.
+
+

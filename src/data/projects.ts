@@ -1,27 +1,26 @@
 export type Project = {
-  title: string;
-  techs: string[];
-  link: string;
-  isComingSoon?: boolean;
-};
+  title: string
+  techs: string[]
+  link: string
+  isComingSoon?: boolean
+}
 
 const projects: Project[] = [
   {
-    title: "Dictionary App",
-    techs: ["ReactJS (NextJS)", "react-query", "zod"],
-    link: "https://github.com/MaeWolff/dictionary-app",
+    title: 'Whai Piano',
+    techs: ['ReactJS', 'react-query', 'TS'],
+    link: 'https://github.com/MaeWolff/dictionary-app',
   },
   {
-    title: "Portfolio / Lina BLIDI",
-    techs: ["ReactJS (NextJS)", "TypeScript"],
-    link: "https://www.linablidi.fr/",
+    title: 'RED PING',
+    techs: ['ReactJS', 'Python', 'Rust', 'TypeScript', 'API'],
+    link: 'https://green-field-0a20fe310.3.azurestaticapps.net/',
   },
   {
-    title: "Portfolio / Template",
-    techs: ["Astro"],
-    link: "/",
-    isComingSoon: true,
+    title: 'Username Generator',
+    techs: ['Handlebars', 'JS'],
+    link: 'http://technical-difficulties-username-in-20-qs.devacademy.nz/usernames',
   },
-];
+]
 
-export default projects;
+export default projects

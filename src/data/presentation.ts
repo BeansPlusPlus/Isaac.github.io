@@ -1,34 +1,30 @@
 type Social = {
-  label: string;
-  link: string;
-};
+  label: string
+  link: string
+}
 
 type Presentation = {
-  mail: string;
-  title: string;
-  description: string;
-  socials: Social[];
-};
+  mail: string
+  title: string
+  description: string
+  socials: Social[]
+}
 
 const presentation: Presentation = {
-  mail: "maxencewolff.pro@gmail.com",
-  title: "Hi, I’m Maxence 👋",
+  mail: 'maxencewolff.pro@gmail.com',
+  title: 'Min Iles | A Portfolio',
   description:
-    "Bonjour, i'm a *french frontend developer* with over *3 years* of web experience. I am currently working with *NextJS and Typescript*. Outside of work I complete my pokemon card collection and learning TypeScript.",
+    "Hello, I am Min, a Software Developer with experience going through Dev Academy's boot-camp and from my own projects in collaboration with others. I am currently working with *NodeJS, React, and Typescript*. Outside of work I am on the Board of an Art Gallery 'MEANWHILE', I love to socialize, and be creative and learning new coding languages. I love learning new things and thinking in different ways whenever possible, and enjoy creating and executing visions in teams. I am currently learning to use Astro to build this Portfolio and am dipping my toe into Python on the weekends.",
   socials: [
     {
-      label: "Twiiter",
-      link: "https://twitter.com/itsstormzz_",
+      label: 'Linked-in',
+      link: 'https://www.linkedin.com/in/min-iles-79bb2a221/',
     },
     {
-      label: "Bento",
-      link: "https://bento.me/m-wolff",
-    },
-    {
-      label: "Github",
-      link: "https://github.com/MaeWolff",
+      label: 'Github',
+      link: 'https://github.com/Tominne',
     },
   ],
-};
+}
 
-export default presentation;
+export default presentation
