@@ -18,18 +18,14 @@ I fully believe that sometimes promoting wellbeing is not always about medicine,
 Building tools that can help others take on their own creative power, inspire learning and purpose, or just make someone laugh is to me just as important in terms of helping others as medicine and lifelines. 
 
 Ideally we may have the tools to find joy and safety before emergency bells ever need be rung."
-## A few projects enspired by the need to spread play & joy:
-JitterBug:
 
-Username Generator:
-
-Whai Piano
 ## Projects to support those who are vulnerable
 
-RED PING:  'https://green-field-0a20fe310.3.azurestaticapps.net/':
+RED PING: (WORK IN PROGRESS)  'https://green-field-0a20fe310.3.azurestaticapps.net/':
+
 
 > For alerting supporters to a situation whether it be discomfort or an emergency.
-
+![RED PING](/Portfolio.gitbut.io/image.png)
 ## Mini Mental Health App
 
 Coming Soon...
@@ -45,4 +41,10 @@ Intent:
 
 > Deliver different options in what sometimes seems like a room with very few doors.
 
+<video src="/Portfolio.github.io/bees.mp4" controls title="Mental health app, with a touch of *silly*"></video>
 
+## Projects to support play and connection:
+
+## Poopie My GPT Powered Discord BOT!
+
+![Poopie Bot](/Portfolio.github.io/Poopie.png)
