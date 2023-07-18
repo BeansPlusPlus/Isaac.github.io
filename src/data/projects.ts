@@ -16,7 +16,7 @@ const projects: Project[] = [
       'Full-stack',
       'Cloudinary',
     ],
-    link: 'https://github.com/MaeWolff/dictionary-app',
+    link: 'https://piano-pitches.devacademy.nz/',
   },
   {
     title: 'Username Generator',
