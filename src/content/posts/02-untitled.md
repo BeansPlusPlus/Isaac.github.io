@@ -3,7 +3,7 @@ title: "Game Making!"
 publishedAt: 2023-05-24
 description: "Personal project with Phaser. A touch of madness!
 I love learning new things and expanding my view of code, so for a personal project at Dev Academy I tried making a Phaser game. I intent to soon step this up into learning and building with Unity"
-slug: "Phaser"
+slug: "Game-building"
 isPublish: true
 ---
 

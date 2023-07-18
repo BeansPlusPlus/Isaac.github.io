@@ -2,7 +2,7 @@
 title: "Coding to Help"
 publishedAt: 2023-07-17
 description: "Helping others and spreading hope is something I try always to keep in the foreground of whatever I am doing."
-slug: "Game-Making"
+slug: "Coding-to-Help"
 isPublish: true
 ---
 
