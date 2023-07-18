@@ -9,7 +9,8 @@ isPublish: true
 
 ## JITTERBUG
 A little preview of my game (a work in progress) 'JitterBug'!:
+![Jitterbug Game](/Portfolio.github.io/game.png)
 
 My goal here was really to target loneliness as I observe it in the people around me, and in myself.
-
+![Jitterbug Animating Background Scene](/Portfolio.github.io/cafedev.gif)
 Keep an eye out for updates.
