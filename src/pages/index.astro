@@ -31,7 +31,7 @@ const posts = await getCollection("posts");
         <Link href="/Portfolio.github.io/posts" label="See all posts" isUnderline target="_self" />
       </header>
       {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
-
+      
       <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
         {
           posts.length !== 0 &&
@@ -48,8 +48,9 @@ const posts = await getCollection("posts");
         }
       </section>
     </article>
-    <img class="w-50 md:w-90 lg:w-87" src="/Portfolio.github.io/pitches.gif" alt="my pitches site animation">
-    <figcaption>Image from Whai Piano App (Link in projects below)</figcaption>
+    <img class="w-50 md:w-90 lg:w-87" src="/Portfolio.github.io/piano.png" alt="Piano from Whai Piano site">
+      <figcaption>Playground Page in Whai Piano Project (links Below)</figcaption>
+    
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         <h3 class="text-lg text-neutral-100">
@@ -59,16 +60,19 @@ const posts = await getCollection("posts");
       {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
 
       <section class="flex flex-col gap-4">
+        
         {
           projects.length !== 0 &&
             projects.map((project) => <ProjectCard {...project} />)
         }
+        
       </section>
     </article>
     <img src="/Portfolio.github.io/image.png" alt="Red Ping Site">
     <figcaption>Image from RED PING App (Link in projects above)</figcaption>
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
+        
         <h3 class="text-lg text-neutral-100">Get in touch</h3>
       </header>
       <p>
@@ -80,5 +84,7 @@ const posts = await getCollection("posts");
 
       <SocialLinks />
     </article>
+    <img class="w-50 md:w-90 lg:w-87" src="/Portfolio.github.io/pitches.gif" alt="my pitches site animation">
+    <figcaption>My animated background gif from 'Whai Piano' team project (Link in projects above)</figcaption>
   </main>
 </Layout>
