@@ -11,7 +11,7 @@ type Presentation = {
 }
 
 const presentation: Presentation = {
-  mail: 'maxencewolff.pro@gmail.com',
+  mail: 'min.elliot48@gmail.com',
   title: 'Min Iles | A Portfolio',
   description:
     "Hello, I am Min, a Software Developer with experience going through Dev Academy's boot-camp and from my own projects in collaboration with others. I am currently working with *NodeJS, React, and Typescript*. Outside of work I am on the Board of an Art Gallery 'MEANWHILE', I love to socialize, and be creative and learning new coding languages. I love learning new things and thinking in different ways whenever possible, and enjoy creating and executing visions in teams. I am currently learning to use Astro to build this Portfolio and am dipping my toe into Python on the weekends.",
