@@ -45,6 +45,6 @@ Intent:
 
 ## Projects to support play and connection:
 
-## Poopie My GPT Powered Discord BOT!
+'Poopie' My GPT Powered Discord BOT!
 
 ![Poopie Bot](/Portfolio.github.io/Poopie.png)
