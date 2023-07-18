@@ -48,3 +48,9 @@ Intent:
 'Poopie' My GPT Powered Discord BOT!
 
 ![Poopie Bot](/Portfolio.github.io/Poopie.png)
+![Poopie Bot](/Portfolio.github.io/Poopie.png)
+
+Here are some examples of Poopie's quality conversations:
+![Poopie Bot Talking About Friends](/Portfolio.github.io/fren.png)
+![Poopie Bot Talking About Cottage Core](/Portfolio.github.io/cotage.png)
+![Poopie Bot Talking About Bunnies](/Portfolio.github.io/bunnies.png)
