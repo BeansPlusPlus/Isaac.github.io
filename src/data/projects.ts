@@ -17,19 +17,12 @@ const projects: Project[] = [
       'Full-stack',
       'Cloudinary',
     ],
-    link: 'https://piano-pitches.devacademy.nz/',
+    link: 'https://piano-pitches-e9wlfnyas-tominne.vercel.app/',
     Reflection:
       'We made this project as a final group project at Dev boot-camp, as a playful way to stay connected to each other, and also build a whimsical tool others could use to connect and laugh whilst doing so. If I were to update this further, I would create private piano rooms people could play with and maintain privacy. I would also automate all the black keys, not only the ones of the Whai piano, so that they automatically play a duet of the two white keys on either side, as I quite enjoyed than feature on our Cohort piano. I would also allow people to customize their own private/group chat pianos.',
   },
   {
-    title: 'Username Generator',
-    techs: ['Handlebars', 'JS', 'SQL'],
-    link: 'http://technical-difficulties-username-in-20-qs.devacademy.nz/usernames',
-    Reflection:
-      'This was the first group project I ever took part in at Dev Academy. It definitely was an idea pulled from the hat about how to integrate Handlebars and a database into a fun app to show the others. Our first team was mighty frolick focused and so naturally a silly little app was born. If I were to add anything further, I would make it more obvious whose username is whose and give users a way to share that online or download a png.',
-  },
-  {
-    title: 'Min Memes',
+    title: 'Pupperazzi',
     techs: ['Full-stack', 'ReactJS', 'TypeScript', 'Solo'],
     link: 'http://min-memes.devacademy.nz/',
     Reflection:
