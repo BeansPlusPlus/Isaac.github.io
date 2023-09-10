@@ -6,28 +6,7 @@ export type Project = {
   isComingSoon?: boolean
 }
 
-const projects: Project[] = [
-  {
-    title: 'Whai Piano',
-    techs: [
-      'ReactJS',
-      'react-query',
-      'TS',
-      'Collaborative',
-      'Full-stack',
-      'Cloudinary',
-    ],
-    link: 'https://piano-pitches-e9wlfnyas-tominne.vercel.app/',
-    Reflection:
-      'We made this project as a final group project at Dev boot-camp, as a playful way to stay connected to each other, and also build a whimsical tool others could use to connect and laugh whilst doing so. If I were to update this further, I would create private piano rooms people could play with and maintain privacy. I would also automate all the black keys, not only the ones of the Whai piano, so that they automatically play a duet of the two white keys on either side, as I quite enjoyed than feature on our Cohort piano. I would also allow people to customize their own private/group chat pianos.',
-  },
-  {
-    title: 'Meme Collection',
-    techs: ['Full-stack', 'ReactJS', 'TypeScript', 'Solo'],
-    link: 'https://fullstack-imo9l2ghn-tominne.vercel.app/',
-    Reflection:
-      'If you have not noticed a theme yet, I love play, I love laughter, I love spreading whimsy and joy almost above all else. This was my first Fullstack application built as a challenge to myself(and for NZQA of-course). Whilst the ins and outs of building client and server side along with passing data through a database and allowing people to edit said data, was my main focus in building this, I had to add my trademark whimsy and make it about something whimsical(memes). I would style this app much further and re order the new memes to appear at the top of the feed rather than scrolling to the bottom to find them. I would also allow people to login and follow meme accounts or topics they wished to see. I would perhaps keep agency over a feed everyone can see that shares artworks or staff picks as it were if I were ever at a size to do that.',
-  },
+/*const projects: Project[] = [
   {
     title: 'RED PING',
     techs: ['ReactJS', 'Python', 'Rust', 'TypeScript', 'Collaborative'],
@@ -37,4 +16,4 @@ const projects: Project[] = [
   },
 ]
 
-export default projects
+export default projects*/

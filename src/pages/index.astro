@@ -9,86 +9,43 @@ import Link from "@/components/shared/Link.astro";
 import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 
 import presentation from "@/data/presentation";
-import projects from "@/data/projects";
+
 
 const posts = await getCollection("posts");
 ---
 
 <Layout>
   <main class="flex flex-col gap-20">
+    <h1 class="text-3xl text-neutral-100">{presentation.title}</h1>
     <article class="flex flex-col gap-8">
-      <h1 class="text-3xl text-neutral-100">{presentation.title}</h1>
+      <img class="w-20 md:w-90 lg:w-87" src="/Izzy.github.io/izzy.jpg" alt="Image of Izzy Irvine">
+ 
+      
       <h2
         class="max-w-[60ch] leading-6"
         set:html={convertAsteriskToStrongTag(presentation.description)}
       />
-      <SocialLinks />
+  
     </article>
-    <img class="w-16 md:w-32 lg:w-48" src="/Portfolio.github.io/robot.gif" alt="animated robot">
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">Latest posts</h3>
-        <Link href="/Portfolio.github.io/posts" label="See all posts" isUnderline target="_self" />
-      </header>
-      {posts.length === 0 && <p>Soon, stay connected 👀...</p>}
+       
       
-      <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
-        {
-          posts.length !== 0 &&
-            posts
-              .slice(0, 2)
-              .map((post) => (
-                <PostCard
-                  publishedAt={post.data.publishedAt}
-                  title={post.data.title}
-                  description={post.data.description}
-                  slug={post.slug}
-                />
-              ))
-        }
-      </section>
     </article>
-    <img class="w-50 md:w-90 lg:w-87" src="/Portfolio.github.io/piano.png" alt="Piano from Whai Piano site">
-      <figcaption>Playground Page in Whai Piano Project (links Below)</figcaption>
-    
-    <article class="flex flex-col gap-8">
-      <header class="flex w-full flex-row justify-between gap-2">
-        <h3 class="text-lg text-neutral-100">
-          Selected projects ({projects.length})
-        </h3>
-      </header>
-      {projects.length === 0 && <p>Oops, I must work^^^^^</p>}
-
-      <section class="flex flex-col gap-4">
-        
-        {
-          projects.length !== 0 &&
-            projects.map((project) => <ProjectCard {...project} />)
-        }
-        
-      </section>
-    </article>
-    <img src="/Portfolio.github.io/image.png" alt="Red Ping Site">
-    <figcaption>Image from RED PING App (Link in projects above)</figcaption>
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         
         <h1 class="border-width: 2px; border-gray-600 font-size: 2.25rem;
-        line-height: 2.5rem; text-neutral-100">Get in touch</h3>
+        line-height: 2.5rem; text-neutral-100">
+      
+       Find my Github and LinkedIn below:</h1>
       </header>
-      <p class="border-width: 2px; border-gray-600 font-size: 2.25rem;
-      line-height: 2.5rem; text-neutral-100">
-        Email me at <Link 
-          href={`mailto:${presentation.mail}`}
-          label={presentation.mail}
-        /> or follow me via my social links below... 🐈
-      </p>
+
 
       <SocialLinks />
     </article>
-    <img  src="/Portfolio.github.io/pitches.gif" alt="my pitches site animation">
-    <figcaption>My animated background gif from 'Whai Piano' team project (Link in projects above)</figcaption>
-    <a href="/Portfolio.github.io/Min_CV.pdf" download><button  class="text-lg text-neutral-100 border-solid">CLICK HERE TO DOWNLOAD MY CV</button></a>
+    
+    <a href="/Portfolio.github.io/izzy.jpg" download><button  class="">virus.exe</button></a>
 
   </main>
 </Layout>

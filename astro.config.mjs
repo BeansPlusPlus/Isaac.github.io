@@ -6,8 +6,8 @@ import { SITE_URL } from './src/data/config'
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), sitemap()],
-  site: 'https://Portfolio.github.io',
-  base: '/Portfolio.github.io',
+  site: 'https://Izzy.github.io',
+  base: '/Izzy.github.io',
   markdown: {
     syntaxHighlight: 'shiki',
     shikiConfig: {
