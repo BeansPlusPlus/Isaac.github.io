@@ -30,13 +30,27 @@ const posts = await getCollection("posts");
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
        
-      
+      <section class="flex flex-col gap-4 md:flex-row md:flex-wrap">
+        {
+          posts.length !== 0 &&
+            posts
+              .slice(0, 2)
+              .map((post) => (
+                <PostCard
+                  publishedAt={post.data.publishedAt}
+                  title={post.data.title}
+                  description={post.data.description}
+                  slug={post.slug}
+                />
+              ))
+        }
+      </section>
     </article>
     <article class="flex flex-col gap-8">
       <header class="flex w-full flex-row justify-between gap-2">
         
-        <h1 class="border-width: 2px; border-gray-600 font-size: 2.25rem;
-        line-height: 2.5rem; text-neutral-100">
+        <h1 class="color-pink border-width: 2px; border-gray-600 font-size: 2.25rem;
+        line-height: 2.5rem; text-neutral-100 text-lg;">
       
        Find my Github and LinkedIn below:</h1>
       </header>
