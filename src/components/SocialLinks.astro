@@ -7,8 +7,8 @@ import presentation from "@/data/presentation";
   {
     presentation.socials.map((social, index) => (
       <>
-        <li>
-          <Link href={social.link} label={social.label} image={social.image} /><img src={social.image} class="h-8 w-8">
+        <li class="flex flex justify-center items-center">
+          <Link class="h-8 w-8 justify-center items-center" href={social.link} label={social.label} image={social.image} /><a href={social.link}> <img src={social.image} class="h-8 w-8 justify-center items-center"></a>
         </li>
 
         {presentation.socials.length - 1 !== index && <li>/</li>}
