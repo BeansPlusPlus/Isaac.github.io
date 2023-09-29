@@ -2,24 +2,24 @@
 import { getCollection } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import formatDate from "@/utils/formatDate";
+import Switch from '@/components/Switch.tsx'
 
 const posts = await getCollection("posts");
 ---
 
-<Layout title="Template - All Posts">
+<Layout title="Switchboard">
   <main class="flex flex-col gap-20">
-    <h1 class="text-2xl text-neutral-100">Posts</h1>
+    <h1 class="text-2xl text-neutral-100">Switchboard</h1>
 
     <article class="flex flex-col gap-4">
       {
         posts.map((post) => (
           <a
             class="group flex flex-col gap-2 border-t border-neutral-700 py-4 transition-all hover:text-neutral-100"
-            href={`/Portfolio.github.io/posts/${post.slug}`}
+            href="/Portfolio.github.io/Switchboard"  // Update the href to point to the Switchboard page
           >
             <div class="flex w-full items-center justify-between">
               <h2 class="text-lg">{post.data.title}</h2>
-
               <div class="flex flex-row items-center gap-4">
                 <p>{formatDate(post.data.publishedAt)}</p>
                 <svg
@@ -49,5 +49,6 @@ const posts = await getCollection("posts");
         ))
       }
     </article>
+    
   </main>
 </Layout>
