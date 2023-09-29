@@ -1,1 +1,1 @@
-export const SITE_URL = 'https:localhost3000/'
+export const SITE_URL = 'https://izzy.github.io/'
