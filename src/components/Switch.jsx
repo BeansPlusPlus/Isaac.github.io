@@ -14,6 +14,8 @@ export default function Switch() {
       <button type="button" onClick={handleClick}>
         {status ? 'Turn off' : 'Turn On'}
       </button>
+      <br></br>
+      <br></br>
       <p>Status: {status ? 'On' : 'Off'}</p>
     </div>
   )
